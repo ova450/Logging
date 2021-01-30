@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <RootNamespace>ova.Common.Logging.Advansed</RootNamespace>
+    <TargetFramework>net5.0</TargetFramework>
+    <AssemblyName>ova.Net.Common.Logging.Advansed</AssemblyName>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <Version>1.0.0.1</Version>
+    <Authors>ovaataaridotru</Authors>
+    <Copyright>ovaataaridotru</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ova.Net.Common.Logging.EventProvider" Version="1.2.0.6" />
+    <PackageReference Include="ova.Net.Common.Logging.Shared" Version="1.1.1.7" />
+  </ItemGroup>
+
+</Project>
