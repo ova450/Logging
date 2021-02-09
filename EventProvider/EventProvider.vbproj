@@ -1,12 +1,12 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <RootNamespace>ova.Common.Logging.EventProvider</RootNamespace>
+    <RootNamespace>ova.common.logging.EventProvider</RootNamespace>
     <TargetFramework>net5.0</TargetFramework>
-    <AssemblyName>ova.Net.Common.Logging.EventProvider</AssemblyName>
+    <AssemblyName>ova.Net.common.logging.EventProvider</AssemblyName>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
-    <Version>1.4.0.10</Version>
+    <Version>1.5.1.13</Version>
     <Authors>ovaataaridotru</Authors>
     <Copyright>ovaataaridotru</Copyright>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
@@ -24,7 +24,7 @@ Event Provider 1.4.0.10: &lt;eventname&gt;Repository inherited from EventReposit
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="ova.Net.Common.EntityFramework.Onion.Core" Version="4.7.0.43" />
+    <PackageReference Include="ova.Net.Common.EntityFramework.Onion.Core" Version="4.7.4.47" />
   </ItemGroup>
 
   <ItemGroup>

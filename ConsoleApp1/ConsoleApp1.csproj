@@ -2,23 +2,11 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <RootNamespace>SqlDbLoggingEventsTest</RootNamespace>
     <TargetFramework>net5.0</TargetFramework>
-    <StartupObject>Sub Main</StartupObject>
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="initi\**" />
-    <EmbeddedResource Remove="initi\**" />
-    <None Remove="initi\**" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Remove="Program.vb~RF12d4aa16.TMP" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <PackageReference Include="ova.Net.Common.Logging.EventProvider" Version="1.5.1.13" />
+    <PackageReference Include="ova.Net.common.logging.EventProvider" Version="1.5.0.12" />
   </ItemGroup>
 
   <ItemGroup>

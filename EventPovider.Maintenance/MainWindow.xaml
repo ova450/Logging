@@ -1,0 +1,35 @@
+﻿<Window x:Class="ova.common.logging.EventProvider.Maintenance.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ova.common.logging.EventProvider.Model;assembly=ova.Net.common.logging.EventProvider"
+        xmlns:col="clr-namespace:System.Collections;assembly=mscorlib"
+        mc:Ignorable="d"
+        Title="EventProvider Maintenance" Height="450" Width="800">
+    <Grid>
+       <DataGrid x:Name="componentsGrid" AutoGenerateColumns="True" HorizontalGridLinesBrush="DarkGray"  RowBackground="LightGray" AlternatingRowBackground="White">  <!--ItemsSource="{DynamicResource ResourceKey=phones}">-->
+            <!--<DataGrid.Items>
+                <local:Component Id="1" Name="vvvvv"></local:Component>
+                    <local:Component Id="2" Name="v2"></local:Component>
+                    <local:Component Id="3" Name="v3"></local:Component>
+                    <local:Process></local:Process>
+                    <local:Stage></local:Stage>
+                <local:BaseEvent></local:BaseEvent>
+                <local:Component></local:Component>
+            </DataGrid.Items>-->
+            <!--<DataGrid.Columns>
+                <DataGridTextColumn Header="Id" Binding="{Binding Path=Id}" Width="90" />
+                <DataGridHyperlinkColumn Header="Name" Binding="{Binding Path=Name}" Width="80" />
+            </DataGrid.Columns>-->
+            <!--<DataGrid.RowDetailsTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="{Binding Path=Price}" />
+                        <TextBlock Text=" рублей по скидке" />
+                    </StackPanel>
+                </DataTemplate>
+            </DataGrid.RowDetailsTemplate>-->
+        </DataGrid>
+    </Grid>
+</Window>

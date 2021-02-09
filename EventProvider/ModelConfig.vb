@@ -1,4 +1,4 @@
-﻿Imports ova.Common.Core.DomainService.SqlService
+﻿Imports ova.common.Onion.Core.DomainService.SqlService
 
 'Namespace Model
 

@@ -1,6 +1,6 @@
 ﻿Imports Microsoft.Extensions.Logging
-Imports ova.Common.Core.Domain.Navigation
-Imports ova.Common.Logging.EventProvider.Model.Abstract
+Imports ova.common.logging.EventProvider.Model.Abstract
+Imports ova.common.Onion.Core.Domain.Navigation
 
 Namespace Model
 

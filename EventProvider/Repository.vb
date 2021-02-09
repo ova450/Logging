@@ -1,8 +1,9 @@
-﻿Imports Microsoft.Extensions.Logging
-Imports ova.Common.Core.DomainService.Repository
-Imports ova.Common.Logging.EventProvider.Model
+﻿Imports Microsoft.EntityFrameworkCore
 Imports Microsoft.EntityFrameworkCore.ChangeTracking
-Imports ova.Common.Core.Domain.Model
+Imports Microsoft.Extensions.Logging
+Imports ova.common.logging.EventProvider.Model
+Imports ova.common.Onion.Core.Domain.Model
+Imports ova.common.Onion.Core.DomainService.Repository
 
 Namespace Data.Repository
 
@@ -39,6 +40,8 @@ Namespace Data.Repository
         Public Overloads Async Function RemoveAsync(eventid As EventId) As Task(Of EntityEntry(Of T))
             Return Await RemoveAsync(eventid.Id)
         End Function
+
+
 
     End Class
 

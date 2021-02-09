@@ -1,6 +1,6 @@
 ﻿Imports System.Reflection
-Imports ova.Common.Core.DomainService.SqlService
-Imports ova.Common.Logging.EventProvider.Model
+Imports ova.common.logging.EventProvider.Model
+Imports ova.common.Onion.Core.DomainService.SqlService
 
 Namespace Data
 

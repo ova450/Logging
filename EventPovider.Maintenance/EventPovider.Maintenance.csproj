@@ -1,0 +1,45 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <AssemblyName>ova.Net.common.logging.EventProvider.Maintenance</AssemblyName>
+    <RootNamespace>ova.common.logging.EventProvider.Maintenance</RootNamespace>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <Version>1.0.1.2</Version>
+    <Authors>ovaataaridoru</Authors>
+    <Company>ovaataaridoruovaataaridoru</Company>
+    <Copyright>ovaataaridoru</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Product>EventPovider.Maintenance</Product>
+    <RunAnalyzersDuringBuild>false</RunAnalyzersDuringBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="App.xaml.cs~RF63767121.TMP" />
+    <None Remove="App.xaml.cs~RF63b843b7.TMP" />
+    <None Remove="App.xaml~RF6377c0e2.TMP" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ova.Net.Common.Logging.EventProvider" Version="1.5.0.12" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="initial\BaseEventInitial.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="initial\ComponentInitial.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="initial\ProcessInitial.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="initial\StageInitial.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>
