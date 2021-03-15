@@ -18,13 +18,15 @@ Event Provider 1.4.0.10: &lt;eventname&gt;Repository inherited from EventReposit
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="abstract\EventTemplateFieldsExtensions.vb~RF13e2a0fd.TMP" />
     <None Remove="Context.vb~RF5392448e.TMP" />
     <None Remove="Context.vb~RF53ff9849.TMP" />
     <None Remove="initial\EventObjectInitial.json~RF122ccc74.TMP" />
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="ova.Net.Common.EntityFramework.Onion.Core" Version="4.7.4.47" />
+    <PackageReference Include="ova.Net.Common.EntityFramework.Onion.Core" Version="4.7.6.49" />
+    <PackageReference Include="ova.Net.сommon.UnixTime" Version="3.0.1.11" />
   </ItemGroup>
 
   <ItemGroup>

@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <RootNamespace>ova.common.logging.Console</RootNamespace>
+    <TargetFramework>net5.0</TargetFramework>
+    <AssemblyName>ova.Net.common.logging.Console</AssemblyName>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <Version>1.0.1.1</Version>
+    <Authors>ovaataaridotru</Authors>
+    <Copyright>ovaataaridotru</Copyright>
+    <Product>logging.Console</Product>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="5.0.0" />
+    <PackageReference Include="ova.Net.common.Console" Version="1.2.6.11" />
+    <PackageReference Include="ova.Net.сommon.UnixTime" Version="3.0.2.12" />
+  </ItemGroup>
+
+</Project>
